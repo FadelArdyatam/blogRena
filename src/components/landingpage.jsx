@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Github, Instagram, Linkedin, Mail } from 'lucide-react';
 import Rena from '../assets/Rena.jpg'
 
 
@@ -103,7 +103,7 @@ const LandingPage = () => {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Mari Terhubung
+              Connect!
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               Tertarik untuk berkolaborasi atau punya pertanyaan? Jangan ragu untuk menghubungi saya.
@@ -111,7 +111,7 @@ const LandingPage = () => {
           </div>
           <div className="flex justify-center gap-6">
             <a href="#" className="bg-white p-4 rounded-full shadow-md hover:shadow-lg transition-shadow">
-              <Github className="h-6 w-6 text-gray-700" />
+              <Instagram className="h-6 w-6 text-gray-700" />
             </a>
             <a href="#" className="bg-white p-4 rounded-full shadow-md hover:shadow-lg transition-shadow">
               <Linkedin className="h-6 w-6 text-blue-600" />
@@ -122,7 +122,12 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
+
+
+
     </div>
+
+
   );
 };
 
